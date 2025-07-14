@@ -1,14 +1,15 @@
 package com.java.oop;
+import com.java.oop.inheritance.*;
 
 public class Main {
-    public static class Car {
+    public static class Bike {
 
         // Attributes/State
         String color;
         int speed;
 
         // Constructor
-        public Car(String color, int speed) {
+        public Bike(String color, int speed) {
             this.color = color;
             this.speed = speed;
         }
@@ -25,7 +26,7 @@ public class Main {
         // toString method provides a meaningful string representation of an object's state
         @Override
         public String toString() {
-            return "Car{" +
+            return "Bike{" +
                     "color=" + color +
                     ", speed=" + speed +
                     '}';
@@ -35,8 +36,13 @@ public class Main {
     public static void main(String[] args) {
 
         // Class, Attributes, Constructor, Methods, toString, Object
-        Car car = new Car("Green", 100); // Create a new Car object with color red and speed 100
-        car.accelerate(5);
-        System.out.println(car); //toString method
+        Bike bike = new Bike("Green", 100); // Create a new Car object with color red and speed 100
+        bike.accelerate(5);
+        System.out.println(bike); //toString method
+
+        // Inheritance
+        // Parent-Class, Attributes, Methods, Constructor, Object
+        Vehicle vehicle = new Vehicle("Toyota", "GLI", "White", "70k");
+        vehicle.display();
     }
 }
