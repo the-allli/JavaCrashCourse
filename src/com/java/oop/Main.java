@@ -53,5 +53,9 @@ public class Main {
         // Hierarchical Inheritance
         Truck truck = new Truck("Toyota", "Tundra", "6", "Red", "500k");
         truck.display();
+        // Multiple Inheritance
+        Horse inter = new Horse();
+        inter.myMethod();
+        inter.myOtherMethod();
     }
 }
