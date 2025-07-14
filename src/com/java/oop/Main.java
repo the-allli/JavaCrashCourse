@@ -47,5 +47,8 @@ public class Main {
         // Single-Level Inheritance
         Car car = new Car("Toyota", "Supra", "2JZ","Red", "700k");
         car.display();
+        // Multi-Level Inheritance
+        ECar ecar = new ECar("Tesla", "Model-X", "Electric", "800", "Red", "7000k");
+        ecar.display();
     }
 }
