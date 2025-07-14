@@ -57,5 +57,17 @@ public class Main {
         Horse inter = new Horse();
         inter.myMethod();
         inter.myOtherMethod();
+
+        // Polymorphism
+        A a1 = new A();
+        a1.a = 5;
+        a1.b = 10;
+        // Method Overloading
+        a1.print(5, 10);
+        a1.print(5);
+        a1.print();
+        // Method Overriding
+        B b1 = new B();
+        b1.print("Ali");
     }
 }
