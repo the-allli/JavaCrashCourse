@@ -2,6 +2,7 @@ package com.java.oop;
 import com.java.oop.inheritance.*;
 import com.java.oop.polymorphism.*;
 import com.java.oop.encapsulation.*;
+import com.java.oop.abstraction.*;
 
 public class Main {
     public static class Bike {
@@ -77,5 +78,9 @@ public class Main {
         myObj.setName("Ali"); // Set the value of the name variable to "John"
         System.out.println(myObj.getName());
 
+        // Abstraction
+        Pig myPig = new Pig();
+        myPig.animalSound();
+        myPig.sleep();
     }
 }
