@@ -44,5 +44,8 @@ public class Main {
         // Parent-Class, Attributes, Methods, Constructor, Object
         Vehicle vehicle = new Vehicle("Toyota", "GLI", "White", "70k");
         vehicle.display();
+        // Single-Level Inheritance
+        Car car = new Car("Toyota", "Supra", "2JZ","Red", "700k");
+        car.display();
     }
 }
