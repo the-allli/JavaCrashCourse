@@ -50,5 +50,8 @@ public class Main {
         // Multi-Level Inheritance
         ECar ecar = new ECar("Tesla", "Model-X", "Electric", "800", "Red", "7000k");
         ecar.display();
+        // Hierarchical Inheritance
+        Truck truck = new Truck("Toyota", "Tundra", "6", "Red", "500k");
+        truck.display();
     }
 }
