@@ -1,5 +1,7 @@
 package com.java.oop;
 import com.java.oop.inheritance.*;
+import com.java.oop.polymorphism.*;
+import com.java.oop.encapsulation.*;
 
 public class Main {
     public static class Bike {
@@ -69,5 +71,11 @@ public class Main {
         // Method Overriding
         B b1 = new B();
         b1.print("Ali");
+
+        // Encapsulation
+        Person myObj = new Person();
+        myObj.setName("Ali"); // Set the value of the name variable to "John"
+        System.out.println(myObj.getName());
+
     }
 }
